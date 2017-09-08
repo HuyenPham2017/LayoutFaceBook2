@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LayoutFaceBook2</string>
+    <string name="text_sign_up">Sign up for FaceBook</string>
+    <string name="hint_email">Email or Phone</string>
+    <string name="text_Login">Login</string>
+    <string name="text_password">Password</string>
+    <string name="text_forgot_password">forgot password</string>
+</resources>
