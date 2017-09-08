@@ -22,34 +22,39 @@
         android:orientation="vertical"
 
         >
+
         <EditText
 
+            android:id="@+id/inputEmail"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:hint="@string/hint_email"
-            android:background="@color/white"
             android:layout_marginBottom="20dp"
-            />
+            android:background="@color/white"
+            android:hint="@string/hint_email"
+            android:singleLine="false" />
+
         <EditText
+            android:id="@+id/inputPassword"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:background="@color/white"
             android:hint="@string/text_password"
-            android:inputType="textPassword"
 
-            />
+            android:inputType="textPassword" />
+
         <Button
-            android:layout_marginTop="20dp"
+            android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/text_Login"
-            android:textSize="@dimen/size_text"
-            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
             android:background="#223B73"
-            />
+            android:text="@string/text_Login"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_text" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/txtForgotPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -60,6 +65,7 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/txtSignupForFb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
